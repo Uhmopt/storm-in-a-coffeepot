@@ -24,6 +24,6 @@ export default function CustomGoogleMap({
 }
 
 export const GOOGLE_MAP_DEFAULT = {
-  center: [59.938043, 30.337157],
-  zoom: 9,
+  center: [48.12124252335608, 11.56082011534261],
+  zoom: 18,
 };
