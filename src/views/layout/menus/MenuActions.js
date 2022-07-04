@@ -9,7 +9,7 @@ export default function MenuActions() {
         {MENU_ACTIONS.map((item, itemIndex) => (
           <Grid key={itemIndex} item>
             <CustomLink to={item.to}>
-              <Button color="primary" startIcon={item.icon ?? null}>
+              <Button color="secondary" startIcon={item.icon ?? null}>
                 {item.label ?? null}
               </Button>
             </CustomLink>

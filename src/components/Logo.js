@@ -13,7 +13,7 @@ export default function Logo({ isPublish = false, noCaption = false }) {
       </Grid>
       {noCaption ? null : (
         <Grid item className="md-down:hidden">
-          <CustomTypo variant="h3" color="primary">
+          <CustomTypo variant="h3" color="secondary">
             {APP_NAME}
           </CustomTypo>
         </Grid>
