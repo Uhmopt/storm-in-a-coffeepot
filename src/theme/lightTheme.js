@@ -1,10 +1,9 @@
 import { createTheme } from "@mui/material";
 import {
-  DARK_BLUE_COLOR,
   ERROR_COLOR,
   PRIMARY_COLOR,
+  SECONDARY_COLOR,
   SUCCESS_COLOR,
-  TRANSPARENT_WHITE_COLOR,
   WARNING_COLOR,
   WHITE_COLOR,
 } from "./variable";
@@ -17,7 +16,7 @@ export const lightTheme = createTheme({
       contrastText: WHITE_COLOR,
     },
     secondary: {
-      main: DARK_BLUE_COLOR,
+      main: SECONDARY_COLOR,
       contrastText: WHITE_COLOR,
     },
     success: {
@@ -37,16 +36,75 @@ export const lightTheme = createTheme({
     // In Chinese and Japanese the characters are usually larger,
     // so a smaller fontsize may be appropriate.
     fontSize: 12,
-    fontFamily: ["Open Sans"],
+    fontFamily: ["Lato", "Open Sans"],
+    h1: {
+      fontFamily: "Pacifico",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 60,
+      lineHeight: "105px",
+      "@media (max-width:600px)": {
+        fontSize: 26,
+        lineHeight: "46px",
+      },
+    },
+    h2: {
+      fontFamily: "Pacifico",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 40,
+      lineHeight: "70px",
+      "@media (max-width:600px)": {
+        fontSize: 20,
+        lineHeight: "35px",
+      },
+    },
+    h3: {
+      fontFamily: "Pacifico",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 26,
+      lineHeight: "46px",
+      "@media (max-width:600px)": {
+        fontSize: 20,
+        lineHeight: "35px",
+      },
+    },
+
+    body2: {
+      fontFamily: "Lato",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 22,
+      lineHeight: "26px",
+      "@media (max-width:600px)": {
+        fontSize: 14,
+        lineHeight: "30px",
+      },
+    },
+
+    subtitle2: {
+      fontFamily: "Lato",
+      fontStyle: "normal",
+      fontWeight: 300,
+      fontSize: 16,
+      lineHeight: "19px",
+      "@media (max-width:600px)": {
+        fontSize: 12,
+        lineHeight: "30px",
+      },
+    },
   },
   components: {
     MuiBackdrop: {
       styleOverrides: {
         root: {
           backdropFilter: "blur(5px)",
-          background: TRANSPARENT_WHITE_COLOR,
+          background: `${PRIMARY_COLOR}88`,
         },
       },
     },
   },
+
+  shape: { borderRadius: 0 },
 });

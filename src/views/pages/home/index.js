@@ -1,5 +1,12 @@
-import React from "react";
+import { Container } from "@mui/material";
+import HomeContent from "./HomeContent";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Container>
+        <HomeContent />
+      </Container>
+    </div>
+  );
 }
