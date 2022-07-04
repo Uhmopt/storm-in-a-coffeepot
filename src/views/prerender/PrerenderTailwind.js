@@ -11,7 +11,7 @@ export default function PrerenderTailwind() {
       <div className="text-white sm:text-white sm-down:text-white"></div>
 
       {/* slider */}
-      <div className="h-144 sm-down:h-60"></div>
+      <div className="h-144 sm-down:h-48"></div>
     </div>
   );
 }

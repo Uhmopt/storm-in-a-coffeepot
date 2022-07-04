@@ -36,7 +36,7 @@ export default function HeroSlider() {
   return (
     <div>
       <CustomSlider
-        imageClassName="h-144 sm-down:h-60"
+        imageClassName="h-144 sm-down:h-48"
         data={[
           {
             background: heroImage15,
