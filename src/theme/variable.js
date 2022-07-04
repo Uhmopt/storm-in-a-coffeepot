@@ -1,4 +1,5 @@
-export const PRIMARY_COLOR = "#39B3FF";
+export const PRIMARY_COLOR = "#3F3B3A";
+export const SECONDARY_COLOR = "#704818";
 
 export const SUCCESS_COLOR = "#00AA06";
 export const WARNING_COLOR = "#F1B800";

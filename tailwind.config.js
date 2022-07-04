@@ -25,8 +25,8 @@ module.exports = {
         // logo: "url('/src/assets/logo/logo_360.png')",
       },
       colors: {
-        primary: "#39B3FF",
-        secondary: "#003657",
+        primary: "#3F3B3A",
+        secondary: "#704818",
         success: "#00AA06",
         warning: "#F1B800",
         error: "#FF0000",
